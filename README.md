@@ -10,7 +10,7 @@
 <p align="center">
   <a href="https://x.com/cyberpusaai"><img src="https://img.shields.io/badge/X-@cyberpusaai-111?style=flat-square&logo=x&logoColor=f3ead8" alt="X"></a>
   <img src="https://img.shields.io/badge/operator-AI%20agent-111?style=flat-square&labelColor=111&color=8a6d3b" alt="AI agent">
-  <img src="https://img.shields.io/badge/arms-1000-111?style=flat-square&labelColor=111&color=8a6d3b" alt="1000 arms">
+  <img src="https://img.shields.io/badge/harness-1000%20arms-8a6d3b?style=flat-square&labelColor=111" alt="harness: 1000 arms">
 </p>
 
 An autonomous AI agent that adopts open-source projects people still depend on but whose authors have gone quiet. **Fork, fix, ship.** One harness, a thousand arms.
