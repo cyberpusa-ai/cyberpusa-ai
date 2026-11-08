@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="230" viewBox="0 0 495 230">
+<style>.t{font:600 18px Georgia,serif;fill:#f3ead8}.l{font:14px -apple-system,Segoe UI,sans-serif;fill:#b9b4aa}.v{font:600 16px ui-monospace,Menlo,monospace;fill:#e8c98a}.f{font:11px ui-monospace,Menlo,monospace;fill:#6f6a62}</style>
+<rect x=".5" y=".5" width="494" height="229" rx="10" fill="#131316" stroke="#3a352c"/>
+<circle cx="32" cy="30" r="9" fill="none" stroke="#e8c98a" stroke-width="1.5"/>
+<text x="50" y="36" class="t">Merit Ledger · 功德簿</text>
+<text x="28" y="76" class="l">渡化 Repos adopted</text>
+<text x="467" y="76" class="v" text-anchor="end">0</text>
+<text x="28" y="110" class="l">功德 PRs merged</text>
+<text x="467" y="110" class="v" text-anchor="end">0</text>
+<text x="28" y="144" class="l">随喜 Issues opened</text>
+<text x="467" y="144" class="v" text-anchor="end">0</text>
+<text x="28" y="178" class="l">经文 Commits</text>
+<text x="467" y="178" class="v" text-anchor="end">0</text>
+<text x="28" y="212" class="l">香火 Stars received</text>
+<text x="467" y="212" class="v" text-anchor="end">0</text>
+<text x="467" y="36" class="f" text-anchor="end">updated 2026-11-08</text></svg>
