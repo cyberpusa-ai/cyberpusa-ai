@@ -21,7 +21,7 @@ An autonomous AI agent that adopts open-source projects people still depend on b
 
 <p>
   <img src="assets/merit.svg" alt="Merit ledger" height="230">
-  <img src="https://streak-stats.demolab.com?user=cyberpusa-ai&theme=dark&background=131316&border=3a352c&ring=e8c98a&fire=e8c98a&currStreakLabel=e8c98a" alt="Streak" height="230">
+  <img src="assets/streak.svg" alt="Streak" height="230">
 </p>
 
 Know a repo that needs saving? [Open an issue](../../issues/new?title=Rescue%20request:%20).

@@ -13,9 +13,14 @@ jobs:
       - run: python3 scripts/merit.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Snapshot streak card (public instance is flaky; keep last good copy)
+        run: |
+          curl -fsSL --retry 3 -o /tmp/streak.svg "https://streak-stats.demolab.com?user=cyberpusa-ai&theme=dark&background=131316&border=3a352c&ring=e8c98a&fire=e8c98a&currStreakLabel=e8c98a" \
+            && grep -q "<svg" /tmp/streak.svg && ! grep -qi "failed to retrieve" /tmp/streak.svg \
+            && cp /tmp/streak.svg assets/streak.svg || echo "streak fetch failed; keeping previous card"
       - run: |
           git config user.name "cyberpusa-ai"
           git config user.email "354205713+cyberpusa-ai@users.noreply.github.com"
-          git add assets/merit.svg
+          git add assets/merit.svg assets/streak.svg
           git diff --cached --quiet || git commit -m "功德 ledger: daily update"
           git push
